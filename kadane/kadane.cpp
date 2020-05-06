@@ -12,7 +12,7 @@ int main()
 	}
 	int sum = v[0];
 	int max_sum = INT_MIN;
-	for (int i = 0; i < size; i++){
+	for (int i = 1; i < size; i++){
 		sum = max(v[i],sum + v[i]);
 		max_sum = max(max_sum, sum);
 	}
