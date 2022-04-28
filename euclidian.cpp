@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// greatest common divisor
 int gcd(int a, int b) {
     if (b == 0){
         return a;
