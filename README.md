@@ -1,6 +1,6 @@
-# Kadane's Algorithm
+# Euclidian Algorithm
 
 + Compile
-  + g++ kadane.cpp -o kadane
+  + g++ euclidian.cpp -o euclidian
 + Execute
-  + ./kadane
+  + ./euclidian
